@@ -1,0 +1,52 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-menu__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-menu__link {
+  position: relative;
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  color: var(--headline-color);
+  transition: 250ms var(--timing-fuction);
+}
+
+.nav-menu__link:hover,
+.nav-menu__link:focus {
+  color: var(--theme-color);
+}
+
+.nav-menu--contacts {
+  margin-left: auto;
+}
+
+.nav-menu__link--conect {
+  align-items: center;
+
+  display: flex;
+  color: var(--text-color);
+}
+
+.nav-menu__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

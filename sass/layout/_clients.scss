@@ -1,0 +1,35 @@
+.clients {
+  padding: 94px 0;
+}
+
+.clients-set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client-item__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+
+  transition: 250ms var(--timing-fuction);
+}
+
+.client-item__link:hover,
+.client-item__linkk:focus {
+  fill: var(--theme-color);
+  border: 1px solid var(--theme-color);
+}
