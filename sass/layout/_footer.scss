@@ -41,17 +41,17 @@
 
 .footer-social {
   margin-top: 12px;
-}
 
-.footer-social__headline {
-  margin-bottom: 20px;
+  &__headline {
+    margin-bottom: 20px;
 
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 }
 
 .footer__social-link {

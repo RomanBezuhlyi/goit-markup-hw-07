@@ -8,36 +8,36 @@
 
 .about-us-item {
   width: 270px;
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+
+    background: #f5f4fa;
+    border-radius: 4px;
+  }
+
+  &__headline {
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--headline-color);
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+  }
 }
 
 .about-us-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.about-us-item__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  height: 120px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-
-.about-us-item__headline {
-  margin-bottom: 10px;
-
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--headline-color);
-}
-.about-us-item__text {
-  font-size: 14px;
-  line-height: 1.7em;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
 }
