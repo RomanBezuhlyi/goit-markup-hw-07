@@ -26,10 +26,10 @@
   fill: #afb1b8;
 
   transition: 250ms var(--timing-fuction);
-}
 
-.client-item__link:hover,
-.client-item__linkk:focus {
-  fill: var(--theme-color);
-  border: 1px solid var(--theme-color);
+  &:hover,
+  &:focus {
+    fill: var(--theme-color);
+    border: 1px solid var&;
+  }
 }

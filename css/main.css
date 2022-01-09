@@ -393,8 +393,7 @@ img {
   transition: 250ms var(--timing-fuction);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-link:hover, .social-link:focus {
   background-color: var(--theme-color);
   fill: #fff;
 }

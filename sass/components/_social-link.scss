@@ -19,9 +19,10 @@
   border-radius: 50%;
   fill: #afb1b8;
   transition: 250ms var(--timing-fuction);
-}
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--theme-color);
-  fill: #fff;
+
+  &:hover,
+  &:focus {
+    background-color: var(--theme-color);
+    fill: #fff;
+  }
 }

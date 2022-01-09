@@ -30,8 +30,8 @@
 
     transition: 250ms var(--timing-fuction);
   }
-}
 
-.profile-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
