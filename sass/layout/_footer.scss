@@ -8,11 +8,6 @@
   display: flex;
 }
 
-.address {
-  padding: 0;
-  margin-right: 70px;
-}
-
 .footer__logo {
   color: #ffffff;
 }
@@ -32,6 +27,7 @@
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 .address-link {
   font-size: 14px;
   line-height: 24px;
@@ -41,6 +37,7 @@
 
 .footer-social {
   margin-top: 12px;
+  margin-left: 70px;
 
   &__headline {
     margin-bottom: 20px;
